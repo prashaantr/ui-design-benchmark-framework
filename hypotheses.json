@@ -1,0 +1,11 @@
+[
+  {
+    "id": "1",
+    "hypothesis": "A standardized user group benchmarking framework incorporating both quantitative and qualitative metrics will provide more accurate and actionable insights for UI design evaluation than current industry standard methods."
+  },
+  {
+    "id": "example-1",
+    "hypothesis": "This is an example hypothesis that demonstrates the expected format.",
+    "_isExample": true
+  }
+]
