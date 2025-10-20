@@ -1,5 +1,7 @@
-This research aims to establish a comprehensive methodology for evaluating user interface design through structured user group benchmarking. The framework will incorporate both quantitative metrics (task completion rates, time-on-task, error rates) and qualitative feedback (user satisfaction, perceived usability, cognitive load).
+# Concept
 
-The project will develop standardized testing protocols that can be applied across different UI design contexts, from web applications to mobile interfaces. This includes defining user group selection criteria, task scenarios, and measurement instruments that ensure reliable and comparable results.
+## Research Idea
 
-The framework will also address the challenge of contextual variables by incorporating environmental factors, user demographics, and device specifications into the benchmark calculations. This will enable more accurate cross-platform and cross-domain comparisons of UI design effectiveness.
+A research project to develop and validate a standardized framework for benchmarking UI design effectiveness through user group testing and comparative analysis.
+
+[This section will be enhanced by Oslo]
