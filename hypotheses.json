@@ -1,11 +1,134 @@
 [
   {
-    "id": "1",
-    "hypothesis": "A standardized user group benchmarking framework incorporating both quantitative and qualitative metrics will provide more accurate and actionable insights for UI design evaluation than current industry standard methods."
+    "id": "H1",
+    "title": "Context-Dependent Design Effectiveness",
+    "type": "primary_literature_level",
+    "hypothesis": "Design effectiveness is fundamentally context-dependent and emerges from dynamic interactions between design principles, user characteristics, task complexity, and environmental constraints, rather than from universal design guidelines.",
+    "null_hypothesis": "Design effectiveness is context-independent and can be predicted using universal design principles with additive effects.",
+    "alternative_hypothesis": "Design effectiveness varies significantly across contexts due to interactive effects between design principles and contextual variables.",
+    "assumptions": [
+      "UI design effectiveness cannot be reduced to simple heuristic compliance",
+      "User-design interactions are dynamic systems rather than static evaluations",
+      "Context variables moderate rather than simply influence design outcomes",
+      "Design principles interact non-linearly with each other and environmental factors"
+    ],
+    "falsification_conditions": [
+      "Design effectiveness patterns remain consistent across all tested contexts",
+      "Design principles demonstrate only additive (non-interactive) effects",
+      "Universal heuristics predict outcomes as accurately as context-specific models"
+    ],
+    "impact_scope": "challenges_universal_principles_paradigm"
   },
   {
-    "id": "example-1",
-    "hypothesis": "This is an example hypothesis that demonstrates the expected format.",
-    "_isExample": true
+    "id": "H2",
+    "title": "Multi-Dimensional Interaction Effects",
+    "type": "literature_level",
+    "hypothesis": "The interaction effects between design principles, user characteristics, and task contexts create predictable patterns that can be systematically measured and modeled to improve design effectiveness beyond current single-principle optimization approaches.",
+    "null_hypothesis": "Design principles operate independently without significant interaction effects across contexts.",
+    "alternative_hypothesis": "Design principles demonstrate significant interaction effects that vary systematically across user and task contexts.",
+    "assumptions": [
+      "Design principles interact in measurable ways rather than functioning independently",
+      "These interactions follow systematic patterns rather than random variations",
+      "Multi-dimensional measurement can capture interaction effects that single-dimension metrics miss",
+      "Pattern recognition across interaction effects can inform predictive models"
+    ],
+    "falsification_conditions": [
+      "Design principles demonstrate only independent effects with no significant interactions",
+      "Interaction patterns are completely random and unpredictable across contexts",
+      "Single-principle optimization performs as well as multi-dimensional approaches"
+    ],
+    "impact_scope": "establishes_interaction_effects_as_fundamental"
+  },
+  {
+    "id": "H3",
+    "title": "Benchmarking Framework Superiority",
+    "type": "literature_level",
+    "hypothesis": "A standardized, multi-dimensional benchmarking framework that captures contextual variations and principle interactions will provide more accurate predictions of design effectiveness and more actionable design guidance than current industry-standard evaluation methods.",
+    "null_hypothesis": "Current industry-standard evaluation methods are as effective as the proposed multi-dimensional framework for predicting design effectiveness.",
+    "alternative_hypothesis": "The proposed multi-dimensional benchmarking framework significantly outperforms current methods in predictive accuracy and actionability.",
+    "assumptions": [
+      "Current evaluation methods are systematically limited by their single-context, single-metric approaches",
+      "Multi-dimensional measurement can be standardized without losing context sensitivity",
+      "Predictive accuracy can be quantitatively measured and compared across evaluation methods",
+      "Actionability of design guidance can be operationally defined and measured"
+    ],
+    "falsification_conditions": [
+      "The proposed framework demonstrates no improvement in predictive accuracy over existing methods",
+      "Standardization reduces context sensitivity to levels that compromise validity",
+      "Current industry methods prove equally or more effective in real-world validation studies"
+    ],
+    "impact_scope": "transforms_design_evaluation_methodology"
+  },
+  {
+    "id": "H1a",
+    "title": "Demographic Interaction Effects",
+    "type": "testable_sub_hypothesis",
+    "parent_hypothesis": "H1",
+    "hypothesis": "Users from different demographic groups will demonstrate systematically different effectiveness patterns for identical UI designs, with interaction effects between demographic characteristics and specific design principles.",
+    "testable_prediction": "Effectiveness rankings of UI designs will vary significantly across demographic groups, with statistical interaction effects between demographic variables and design principle implementation quality."
+  },
+  {
+    "id": "H1b",
+    "title": "Task Complexity Moderation",
+    "type": "testable_sub_hypothesis",
+    "parent_hypothesis": "H1",
+    "hypothesis": "Design principle effectiveness will vary systematically with task complexity, with certain principles becoming more/less important as cognitive load increases.",
+    "testable_prediction": "Correlation patterns between design principle scores and effectiveness metrics will show significant differences across low, medium, and high cognitive load conditions."
+  },
+  {
+    "id": "H1c",
+    "title": "Environmental Context Effects",
+    "type": "testable_sub_hypothesis",
+    "parent_hypothesis": "H1",
+    "hypothesis": "The same UI design will demonstrate measurably different effectiveness patterns across different environmental contexts (device types, usage environments, time pressures).",
+    "testable_prediction": "Design effectiveness metrics will show significant main effects for environmental context and interaction effects between context and design features."
+  },
+  {
+    "id": "H2a",
+    "title": "Principle Synergy Effects",
+    "type": "testable_sub_hypothesis",
+    "parent_hypothesis": "H2",
+    "hypothesis": "Certain combinations of design principles will demonstrate synergistic effects where combined implementation exceeds the sum of individual principle contributions.",
+    "testable_prediction": "Multivariate models including interaction terms will explain significantly more variance in effectiveness than additive models for specific principle combinations."
+  },
+  {
+    "id": "H2b",
+    "title": "Principle Competition Effects",
+    "type": "testable_sub_hypothesis",
+    "parent_hypothesis": "H2",
+    "hypothesis": "Some design principles will demonstrate competitive interactions where optimizing one principle necessarily compromises another in specific contexts.",
+    "testable_prediction": "Negative correlation coefficients will emerge between specific principle pairs in certain contexts, with optimization trade-offs demonstrable through controlled manipulation."
+  },
+  {
+    "id": "H2c",
+    "title": "Threshold Effects",
+    "type": "testable_sub_hypothesis",
+    "parent_hypothesis": "H2",
+    "hypothesis": "Design principle effectiveness will demonstrate threshold effects where improvements show step-function rather than linear relationships with implementation quality.",
+    "testable_prediction": "Piecewise regression models will provide significantly better fit than linear models for relationships between principle implementation quality and effectiveness metrics."
+  },
+  {
+    "id": "H3a",
+    "title": "Predictive Validity",
+    "type": "testable_sub_hypothesis",
+    "parent_hypothesis": "H3",
+    "hypothesis": "The multi-dimensional framework will demonstrate higher correlation with real-world design success metrics than current single-metric approaches.",
+    "testable_prediction": "Framework-generated scores will show correlation coefficients >0.1 higher with real-world success metrics compared to existing evaluation methods."
+  },
+  {
+    "id": "H3b",
+    "title": "Cross-Domain Generalization",
+    "type": "testable_sub_hypothesis",
+    "parent_hypothesis": "H3",
+    "hypothesis": "Models developed from the framework will successfully predict design effectiveness when applied to new domains or user populations not included in training data.",
+    "testable_prediction": "Cross-validation accuracy on out-of-sample domains will exceed 70% while maintaining predictive validity coefficients >0.5."
+  },
+  {
+    "id": "H3c",
+    "title": "Actionable Guidance",
+    "type": "testable_sub_hypothesis",
+    "parent_hypothesis": "H3",
+    "hypothesis": "Design recommendations generated from the framework will lead to measurably better outcomes when implemented compared to recommendations from current evaluation methods.",
+    "testable_prediction": "A/B testing of framework-guided vs. current-method-guided redesigns will show statistically significant improvements in effectiveness metrics with effect sizes >0.3."
   }
 ]
